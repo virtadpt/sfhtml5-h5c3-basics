@@ -3,8 +3,9 @@ Block elements:
 		<div> is a generic box. they stack vertically on the page.
 		<pre> is preformatted text.  lines are not wrapped.
 		probably <code> as well
-		br doesn't need a closing tag anymore.
-		<p> auto-closes, too.
+		<br> doesn't need a closing tag anymore.
+		<p> autocloses, too.
+		<img> tags autoclose.
 
 Inline elements
 	span, b, i, s, u, cite
@@ -23,4 +24,55 @@ Lists
 
 Links
 	a
+
+CSS - Cascading Style Sheets
+	selectors match parts of HTML pages.
+	properties change how what is selected is drawn by the browser.
+
+	p { font: 12px/14px sans-serif }
+	"p" is the selector (the tag)
+	"font: 12px/14px sans-serif" is a set of properties that set a font and
+		a font size on all instances of that selector.
+	means:
+		font-style: normal
+		font-size: 12px
+		line-height: 14px
+		font-family: sans-serif
+	value/value: height of text/height of line
+	always assumes 96 pixels/inch (thank you, Microsoft)
+
+	out of two dozen selectors, you really only need to know 3.
+	classes are ways of grouping kinds of blocks of HTML.
+
+body	{
+	font-family: Ariel;
+	font-size: 12pt;
+	color: black;
+	}
+h1 { color: blue }
+.intro { font-style: italic }
+
+<body>
+<h1>Hello, world.</h1>
+<p class="intro">This is my first paragraph.</p>
+
+<p class="intro" id="part2">This is my second paragraph.</p>
+</body>
+
+If the browser encounters a CSS selector that it doesn't understand (like IE9
+running into an rgba(x, y, z, alpha) directive) it silently ignores it.
+
+Web-safe colors are no longer a thing.
+They were from a time when 8-bit colour depth was the most common limit, and
+you had to pick from a color palette that was guaranteed to render on
+everything.
+
+Classes (like intro) are specified in CSS with dots:
+.intro { color: blue }
+<section id="intro">
+	Stuff...
+</section>
+
+#intro p { font-style: italic }
+"For every <p> inside the section #intro..."
 
