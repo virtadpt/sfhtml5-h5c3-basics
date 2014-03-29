@@ -1,5 +1,5 @@
 # HTML5/CSS3 (and Javascript) Basics
-[Richard Clark](mailto:rdclark@nextquestion.net), (Head of Training)[mailto:training@kaazing.com], [Kaazing](http://www.kaazing.com)
+[Richard Clark](mailto:rdclark@nextquestion.net), [Head of Training](mailto:training@kaazing.com), [Kaazing](http://www.kaazing.com)
 
 ## Why this class?
 
