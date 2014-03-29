@@ -1,0 +1,15 @@
+Block elements:
+	h1-h6, p, div, blockquote, pre, br
+		<div> stacks blocks veritically
+		<pre> is preformatted text.  lines are not wrapped.
+		probably <code> as well
+
+Inline elements
+	span, b, i, s, u, cite
+
+Lists
+	ul, ol, dl; li, dt, dd
+
+Links
+	a
+
