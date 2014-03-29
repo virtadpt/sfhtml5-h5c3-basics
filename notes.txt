@@ -76,3 +76,34 @@ Classes (like intro) are specified in CSS with dots:
 #intro p { font-style: italic }
 "For every <p> inside the section #intro..."
 
+Style elements cascade - they stack from first to most recently applied.
+
+Browser style sheet -> user style sheet -> author style sheet -> inline styles
+
+Users can supply default style sheets in their browsers.
+
+Specificity - Most specific rule gets applied.  If two or more rules are
+equally specific, the last one wins.
+
+local style attribute: weight == 1000
+ID seletor: weight == 100
+attributes and pseudo-classes: weight == 10
+element names and pseudo-elements: weight == 1
+
+Twitter Bootstrap
+Library of CSS and Javascript to give you a basic framework.
+Responsiveness built in.
+grid system for positioning blocks
+Defaults to 12 columns across, like a newspaper.
+
+<p class="col-lg-4">
+<p class="col-lg-10 cold-md-10 col-xs-12">
+lg == large screen
+md == mobile device (tablet)
+sm == small (phone in landscape mode)
+xs == very small (phone in vertical mode)
+# is the number of columns
+
+div's inside of a Bootstrap page get subdivided into 12 columns themselves.
+
+
