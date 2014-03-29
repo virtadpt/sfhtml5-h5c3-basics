@@ -1,14 +1,25 @@
 Block elements:
 	h1-h6, p, div, blockquote, pre, br
-		<div> stacks blocks veritically
+		<div> is a generic box. they stack vertically on the page.
 		<pre> is preformatted text.  lines are not wrapped.
 		probably <code> as well
+		br doesn't need a closing tag anymore.
+		<p> auto-closes, too.
 
 Inline elements
 	span, b, i, s, u, cite
+		<s> (strikethrough)
+		<cite> - citation
+	these tags all have special meaning for speech readers.
+	<em> is emphasized when it's spoken out loud.
+	<b>, <i>, et al are ignored by assistive tech.
 
 Lists
 	ul, ol, dl; li, dt, dd
+		<ul> - bulleted list
+		<ol> - ordered/numbered list
+		<dl> - list of definitions
+		closing </li>'s are no longer needed.
 
 Links
 	a
