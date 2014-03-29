@@ -1,0 +1,27 @@
+body { margin:5%;
+       background:#faebd0;
+       text-align:justify
+       }
+
+p { text-indent: 5em;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    color: #C41818;
+    }
+
+h1,h2,h3,h4,h5,h6 { text-align: center;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    }
+
+.chapter { color: #3BF50C } 
+
+.pagebreak { color: #18139E }
+
+.montypython { font-style: italic;
+               text-align: center;
+               margin-left: 25%;
+               margin-right: 25%;
+               }
+
+a.montylink:link { text-decoration: none }
